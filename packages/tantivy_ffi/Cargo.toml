@@ -1,0 +1,13 @@
+[package]
+name = "tantivy_ffi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = "0.3.30"
+tantivy = "0.22.0"
+
+[build-dependencies]
+cbindgen = "0.27.0"
